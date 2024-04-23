@@ -1,0 +1,24 @@
+$primary: #1a1a1a;
+
+body {
+  // background: linear-gradient(131.55deg, #1b1b1b 0%, #14151f 88.91%),
+  //   linear-gradient(0deg, rgba(10, 10, 10, 0.2), rgba(10, 10, 10, 0.2));
+  background-color: #1e1e1e !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+i,
+li,
+a,
+span {
+  color: white;
+}
+
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "scss/table";
